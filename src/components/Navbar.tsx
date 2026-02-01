@@ -17,9 +17,7 @@ export default function Navbar() {
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <div>
-                        <h1 className="text-lg font-semibold tracking-tight">
-                            SkyRealm <span className="gradient-text">Boost</span>
-                        </h1>
+                        <h1 className="text-lg font-semibold tracking-tight">Skyrealm</h1>
                     </div>
 
                     {/* Desktop Navigation */}
