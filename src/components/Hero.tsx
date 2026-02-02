@@ -23,8 +23,8 @@ export default function Hero() {
                         <span className="gradient-text">Ribet Grinding</span>
                     </h1>
                     <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light">Jasa boosting profesional untuk Genshin Impact, Honkai Star Rail, Wuthering Waves, dan game lainnya.</p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-                        <button onClick={scrollToOrder} className="px-8 py-3 bg-indigo-600 rounded-lg font-medium hover:bg-indigo-500 transition-colors">
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4 w-full">
+                        <button onClick={scrollToOrder} className="w-full sm:w-auto px-8 py-3 bg-indigo-600 rounded-lg font-medium hover:bg-indigo-500 transition-colors">
                             Mulai Sekarang
                         </button>
                         <button
@@ -32,7 +32,7 @@ export default function Hero() {
                                 const element = document.getElementById("games");
                                 if (element) element.scrollIntoView({ behavior: "smooth" });
                             }}
-                            className="px-8 py-3 border border-[#2a2a2a] rounded-lg font-medium hover:border-indigo-600 transition-colors"
+                            className="w-full sm:w-auto px-8 py-3 border border-[#2a2a2a] rounded-lg font-medium hover:border-indigo-600 transition-colors"
                         >
                             Lihat Selengkapnya
                         </button>
