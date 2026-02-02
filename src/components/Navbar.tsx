@@ -16,8 +16,8 @@ export default function Navbar() {
             <div className="max-w-6xl mx-auto px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
-                    <div>
-                        <h1 className="text-lg font-semibold tracking-tight">Skyrealm</h1>
+                    <div className="flex items-center">
+                        <img src="/skyrealm-logo-2.png" alt="Skyrealm" className="h-6 w-auto" />
                     </div>
 
                     {/* Desktop Navigation */}

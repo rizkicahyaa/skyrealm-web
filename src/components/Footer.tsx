@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
                     {/* Brand */}
                     <div>
-                        <h2 className="text-lg font-semibold mb-3">Skyrealm</h2>
+                        <img src="/skyrealm-logo-2.png" alt="Skyrealm" className="h-8 w-auto mb-5" />
                         <p className="text-sm text-gray-500 font-light leading-relaxed">Jasa boosting game profesional untuk game gacha dan RPG populer.</p>
                     </div>
 
