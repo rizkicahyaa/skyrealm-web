@@ -1,25 +1,25 @@
 export default function Services() {
-    const packages = [
-        {
-            id: "starter",
-            name: "Starter",
-            price: "Rp 150K",
-            features: ["Boost level dasar", "Pengerjaan 1-3 hari", "Support via email", "Keamanan akun terjamin"],
-        },
-        {
-            id: "pro",
-            name: "Pro",
-            price: "Rp 300K",
-            features: ["Boost advanced", "Pengerjaan 12-24 jam", "Support prioritas", "Proteksi VPN", "Update progress real-time"],
-            popular: true,
-        },
-        {
-            id: "premium",
-            name: "Premium",
-            price: "Rp 500K",
-            features: ["Layanan premium", "Pengerjaan 6-12 jam", "Support VIP 24/7", "Keamanan maksimal", "Live streaming", "Optimasi karakter"],
-        },
-    ];
+    // const packages = [
+    //     {
+    //         id: "starter",
+    //         name: "Starter",
+    //         price: "Rp 150K",
+    //         features: ["Boost level dasar", "Pengerjaan 1-3 hari", "Support via email", "Keamanan akun terjamin"],
+    //     },
+    //     {
+    //         id: "pro",
+    //         name: "Pro",
+    //         price: "Rp 300K",
+    //         features: ["Boost advanced", "Pengerjaan 12-24 jam", "Support prioritas", "Proteksi VPN", "Update progress real-time"],
+    //         popular: true,
+    //     },
+    //     {
+    //         id: "premium",
+    //         name: "Premium",
+    //         price: "Rp 500K",
+    //         features: ["Layanan premium", "Pengerjaan 6-12 jam", "Support VIP 24/7", "Keamanan maksimal", "Live streaming", "Optimasi karakter"],
+    //     },
+    // ];
 
     return (
         <section id="services" className="py-24 px-6 bg-[#0a0a0a]">
