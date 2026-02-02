@@ -8,7 +8,7 @@ export default function Games() {
         },
         {
             id: "hsr",
-            name: "Honkai Star Rail",
+            name: "Honkai: Star Rail",
             description: "Trailblaze Level, Memory of Chaos, Karakter",
             image: "/images/hsr.jpg",
         },
@@ -20,7 +20,7 @@ export default function Games() {
         },
         {
             id: "arknights",
-            name: "Arknights Endfield",
+            name: "Arknights: Endfield",
             description: "Progres Level, Clear Stage, Farming Resource",
             image: "/images/enfield.webp",
         },
