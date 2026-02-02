@@ -4,7 +4,7 @@ export default function Games() {
             id: "genshin",
             name: "Genshin Impact",
             description: "Adventure Rank, Character Building, Spiral Abyss",
-            image: "/images/genshin.jpg",
+            image: "/images/genshin.jpeg",
         },
         {
             id: "hsr",
@@ -22,19 +22,7 @@ export default function Games() {
             id: "arknights",
             name: "Arknights Endfield",
             description: "Level Progression, Stage Clearing, Resources",
-            image: "/images/arknights.jpg",
-        },
-        {
-            id: "nikke",
-            name: "NIKKE",
-            description: "Commander Level, Campaign, Arena Ranking",
-            image: "/images/nikke.jpg",
-        },
-        {
-            id: "zzz",
-            name: "Zenless Zone Zero",
-            description: "Inter-Knot Level, Shiyu Defense, Characters",
-            image: "/images/zzz.jpg",
+            image: "/images/enfield.webp",
         },
     ];
 

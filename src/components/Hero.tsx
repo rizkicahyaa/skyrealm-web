@@ -37,26 +37,6 @@ export default function Hero() {
                             Learn More
                         </button>
                     </div>
-
-                    {/* Simple Stats */}
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 max-w-3xl mx-auto">
-                        <div>
-                            <div className="text-3xl font-semibold gradient-text">5000+</div>
-                            <div className="text-sm text-gray-500 mt-1">Orders</div>
-                        </div>
-                        <div>
-                            <div className="text-3xl font-semibold gradient-text">24/7</div>
-                            <div className="text-sm text-gray-500 mt-1">Support</div>
-                        </div>
-                        <div>
-                            <div className="text-3xl font-semibold gradient-text">4.9★</div>
-                            <div className="text-sm text-gray-500 mt-1">Rating</div>
-                        </div>
-                        <div>
-                            <div className="text-3xl font-semibold gradient-text">100%</div>
-                            <div className="text-sm text-gray-500 mt-1">Secure</div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
