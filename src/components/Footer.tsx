@@ -7,34 +7,32 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
                     {/* Brand */}
                     <div>
-                        <h2 className="text-lg font-semibold mb-3">
-                            SkyRealm <span className="gradient-text">Boost</span>
-                        </h2>
-                        <p className="text-sm text-gray-500 font-light leading-relaxed">Professional game boosting services for popular gacha and RPG games.</p>
+                        <h2 className="text-lg font-semibold mb-3">Skyrealm</h2>
+                        <p className="text-sm text-gray-500 font-light leading-relaxed">Jasa boosting game profesional untuk game gacha dan RPG populer.</p>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h3 className="font-medium mb-3">Quick Links</h3>
+                        <h3 className="font-medium mb-3">Link Cepat</h3>
                         <ul className="space-y-2 text-sm">
                             <li>
                                 <a href="#home" className="text-gray-500 hover:text-white transition-colors">
-                                    Home
+                                    Beranda
                                 </a>
                             </li>
                             <li>
                                 <a href="#games" className="text-gray-500 hover:text-white transition-colors">
-                                    Games
+                                    Game
                                 </a>
                             </li>
                             <li>
                                 <a href="#services" className="text-gray-500 hover:text-white transition-colors">
-                                    Services
+                                    Paket
                                 </a>
                             </li>
                             <li>
                                 <a href="#order" className="text-gray-500 hover:text-white transition-colors">
-                                    Order Now
+                                    Pesan Sekarang
                                 </a>
                             </li>
                         </ul>
@@ -46,17 +44,17 @@ export default function Footer() {
                         <ul className="space-y-2 text-sm">
                             <li>
                                 <a href="#" className="text-gray-500 hover:text-white transition-colors">
-                                    Terms of Service
+                                    Syarat & Ketentuan
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="text-gray-500 hover:text-white transition-colors">
-                                    Privacy Policy
+                                    Kebijakan Privasi
                                 </a>
                             </li>
                             <li>
                                 <a href="#" className="text-gray-500 hover:text-white transition-colors">
-                                    Refund Policy
+                                    Kebijakan Refund
                                 </a>
                             </li>
                         </ul>
@@ -65,7 +63,7 @@ export default function Footer() {
 
                 {/* Bottom */}
                 <div className="pt-8 border-t border-[#2a2a2a] text-center text-sm text-gray-500">
-                    <p>&copy; {currentYear} SkyRealm Boost. All rights reserved.</p>
+                    <p>&copy; {currentYear} Skyrealm. All rights reserved.</p>
                 </div>
             </div>
         </footer>

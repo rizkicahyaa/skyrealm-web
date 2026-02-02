@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Games from "./components/Games";
 import Services from "./components/Services";
-import Testimonials from "./components/Testimonials";
-import OrderForm from "./components/OrderForm";
+// import Testimonials from "./components/Testimonials";
+// import OrderForm from "./components/OrderForm";
 import Footer from "./components/Footer";
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
             <Hero />
             <Games />
             <Services />
-            <Testimonials />
-            <OrderForm />
+            {/* <Testimonials /> */}
+            {/* <OrderForm /> */}
             <Footer />
         </div>
     );

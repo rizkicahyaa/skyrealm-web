@@ -3,25 +3,25 @@ export default function Games() {
         {
             id: "genshin",
             name: "Genshin Impact",
-            description: "Adventure Rank, Character Building, Spiral Abyss",
+            description: "Adventure Rank, Build Karakter, Spiral Abyss",
             image: "/images/genshin.jpeg",
         },
         {
             id: "hsr",
             name: "Honkai Star Rail",
-            description: "Trailblaze Level, Memory of Chaos, Characters",
+            description: "Trailblaze Level, Memory of Chaos, Karakter",
             image: "/images/hsr.jpg",
         },
         {
             id: "wuwa",
             name: "Wuthering Waves",
-            description: "Union Level, Tower of Adversity, Echo Farming",
+            description: "Union Level, Tower of Adversity, Farming Echo",
             image: "/images/wuwa.jpg",
         },
         {
             id: "arknights",
             name: "Arknights Endfield",
-            description: "Level Progression, Stage Clearing, Resources",
+            description: "Progres Level, Clear Stage, Farming Resource",
             image: "/images/enfield.webp",
         },
     ];
@@ -31,9 +31,9 @@ export default function Games() {
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-semibold mb-4 tracking-tight">
-                        Supported <span className="gradient-text">Games</span>
+                        Game yang <span className="gradient-text">Didukung</span>
                     </h2>
-                    <p className="text-gray-400 font-light">Professional boosting for the most popular games</p>
+                    <p className="text-gray-400 font-light">Jasa boosting profesional untuk game-game populer</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

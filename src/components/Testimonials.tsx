@@ -2,21 +2,21 @@ export default function Testimonials() {
     const testimonials = [
         {
             id: 1,
-            name: "Alex Chen",
+            name: "Rizki Pratama",
             game: "Genshin Impact",
-            text: "Amazing service! Got my AR from 45 to 60 in just 2 days. Professional and kept me updated throughout.",
+            text: "Pelayanan mantap banget! AR saya dari 45 ke 60 cuma 2 hari. Profesional dan selalu update progress.",
         },
         {
             id: 2,
-            name: "Sarah Kim",
+            name: "Sarah Putri",
             game: "Honkai Star Rail",
-            text: "Best boosting service. They cleared Memory of Chaos 12 and farmed extra relics. Highly recommended!",
+            text: "Jasa boosting terbaik! Mereka clear Memory of Chaos 12 dan farming relic extra. Highly recommended!",
         },
         {
             id: 3,
-            name: "Mike Johnson",
+            name: "Andi Wijaya",
             game: "Wuthering Waves",
-            text: "Super fast and secure. My account was handled with care. Will definitely use again!",
+            text: "Cepat dan aman banget. Akun saya ditangani dengan hati-hati. Pasti bakal order lagi!",
         },
     ];
 
@@ -24,10 +24,8 @@ export default function Testimonials() {
         <section id="testimonials" className="py-24 px-6">
             <div className="max-w-6xl mx-auto">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-semibold mb-4 tracking-tight">
-                        What Our <span className="gradient-text">Customers Say</span>
-                    </h2>
-                    <p className="text-gray-400 font-light">Trusted by thousands of gamers worldwide</p>
+                    <h2 className="text-4xl md:text-5xl font-semibold mb-4 tracking-tight">Testimoni</h2>
+                    <p className="text-gray-400 font-light">Dipercaya ribuan gamers di seluruh Indonesia</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

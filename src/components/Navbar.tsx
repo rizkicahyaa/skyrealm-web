@@ -23,16 +23,16 @@ export default function Navbar() {
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center space-x-8">
                         <button onClick={() => scrollToSection("home")} className="text-sm text-gray-400 hover:text-white transition-colors">
-                            Home
+                            Beranda
                         </button>
                         <button onClick={() => scrollToSection("games")} className="text-sm text-gray-400 hover:text-white transition-colors">
-                            Games
+                            Game
                         </button>
                         <button onClick={() => scrollToSection("services")} className="text-sm text-gray-400 hover:text-white transition-colors">
-                            Services
+                            Paket
                         </button>
                         <button onClick={() => scrollToSection("order")} className="px-5 py-2 bg-indigo-600 rounded-lg text-sm font-medium hover:bg-indigo-500 transition-colors">
-                            Order Now
+                            Pesan Sekarang
                         </button>
                     </div>
 
@@ -50,16 +50,16 @@ export default function Navbar() {
                 <div className="md:hidden border-t border-[#2a2a2a] bg-[#0f0f0f]">
                     <div className="px-6 py-4 space-y-3">
                         <button onClick={() => scrollToSection("home")} className="block w-full text-left text-sm text-gray-400 hover:text-white py-2">
-                            Home
+                            Beranda
                         </button>
                         <button onClick={() => scrollToSection("games")} className="block w-full text-left text-sm text-gray-400 hover:text-white py-2">
-                            Games
+                            Game
                         </button>
                         <button onClick={() => scrollToSection("services")} className="block w-full text-left text-sm text-gray-400 hover:text-white py-2">
-                            Services
+                            Paket
                         </button>
                         <button onClick={() => scrollToSection("order")} className="w-full px-5 py-2 bg-indigo-600 rounded-lg text-sm font-medium hover:bg-indigo-500 transition-colors mt-2">
-                            Order Now
+                            Pesan Sekarang
                         </button>
                     </div>
                 </div>

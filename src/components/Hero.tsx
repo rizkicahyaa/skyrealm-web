@@ -18,14 +18,14 @@ export default function Hero() {
             <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
                 <div className="fade-in-up space-y-8">
                     <h1 className="text-5xl md:text-7xl font-semibold leading-tight tracking-tight">
-                        Level Up Your Game
+                        Naik Level Tanpa
                         <br />
-                        <span className="gradient-text">Without The Grind</span>
+                        <span className="gradient-text">Ribet Grinding</span>
                     </h1>
-                    <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light">Professional boosting services for Genshin Impact, Honkai Star Rail, Wuthering Waves, and more.</p>
+                    <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto font-light">Jasa boosting profesional untuk Genshin Impact, Honkai Star Rail, Wuthering Waves, dan game lainnya.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
                         <button onClick={scrollToOrder} className="px-8 py-3 bg-indigo-600 rounded-lg font-medium hover:bg-indigo-500 transition-colors">
-                            Get Started
+                            Mulai Sekarang
                         </button>
                         <button
                             onClick={() => {
@@ -34,7 +34,7 @@ export default function Hero() {
                             }}
                             className="px-8 py-3 border border-[#2a2a2a] rounded-lg font-medium hover:border-indigo-600 transition-colors"
                         >
-                            Learn More
+                            Lihat Selengkapnya
                         </button>
                     </div>
                 </div>

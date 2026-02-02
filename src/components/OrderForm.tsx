@@ -13,7 +13,7 @@ export default function OrderForm() {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         console.log("Form submitted:", formData);
-        alert("Thank you! We will contact you shortly via email.");
+        alert("Terima kasih! Kami akan segera menghubungi kamu via email.");
         setFormData({
             name: "",
             email: "",
@@ -36,9 +36,9 @@ export default function OrderForm() {
             <div className="max-w-2xl mx-auto">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-5xl font-semibold mb-4 tracking-tight">
-                        Place Your <span className="gradient-text">Order</span>
+                        Buat <span className="gradient-text">Pesanan</span>
                     </h2>
-                    <p className="text-gray-400 font-light">Fill out the form and we'll get started right away</p>
+                    <p className="text-gray-400 font-light">Isi form dan kami akan langsung proses pesanan kamu</p>
                 </div>
 
                 <div className="card-minimal rounded-xl p-8">
@@ -46,26 +46,26 @@ export default function OrderForm() {
                         {/* Name */}
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">
-                                Full Name
+                                Nama Lengkap
                             </label>
-                            <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required className="w-full px-4 py-3 rounded-lg bg-[#0f0f0f] border border-[#2a2a2a] focus:border-indigo-600 focus:outline-none transition-colors" placeholder="John Doe" />
+                            <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required className="w-full px-4 py-3 rounded-lg bg-[#0f0f0f] border border-[#2a2a2a] focus:border-indigo-600 focus:outline-none transition-colors" placeholder="Nama kamu" />
                         </div>
 
                         {/* Email */}
                         <div>
                             <label htmlFor="email" className="block text-sm font-medium mb-2">
-                                Email Address
+                                Alamat Email
                             </label>
-                            <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required className="w-full px-4 py-3 rounded-lg bg-[#0f0f0f] border border-[#2a2a2a] focus:border-indigo-600 focus:outline-none transition-colors" placeholder="john@example.com" />
+                            <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required className="w-full px-4 py-3 rounded-lg bg-[#0f0f0f] border border-[#2a2a2a] focus:border-indigo-600 focus:outline-none transition-colors" placeholder="email@example.com" />
                         </div>
 
                         {/* Game Selection */}
                         <div>
                             <label htmlFor="game" className="block text-sm font-medium mb-2">
-                                Select Game
+                                Pilih Game
                             </label>
                             <select id="game" name="game" value={formData.game} onChange={handleChange} required className="w-full px-4 py-3 rounded-lg bg-[#0f0f0f] border border-[#2a2a2a] focus:border-indigo-600 focus:outline-none transition-colors">
-                                <option value="">Choose a game...</option>
+                                <option value="">Pilih game...</option>
                                 <option value="genshin">Genshin Impact</option>
                                 <option value="hsr">Honkai Star Rail</option>
                                 <option value="wuwa">Wuthering Waves</option>
@@ -78,45 +78,45 @@ export default function OrderForm() {
                         {/* Service Type */}
                         <div>
                             <label htmlFor="service" className="block text-sm font-medium mb-2">
-                                Service Type
+                                Tipe Layanan
                             </label>
                             <select id="service" name="service" value={formData.service} onChange={handleChange} required className="w-full px-4 py-3 rounded-lg bg-[#0f0f0f] border border-[#2a2a2a] focus:border-indigo-600 focus:outline-none transition-colors">
-                                <option value="">Choose a service...</option>
-                                <option value="level-boost">Level/Rank Boost</option>
-                                <option value="character-build">Character Building</option>
-                                <option value="endgame-content">Endgame Content</option>
-                                <option value="resource-farming">Resource Farming</option>
-                                <option value="custom">Custom Service</option>
+                                <option value="">Pilih layanan...</option>
+                                <option value="level-boost">Boost Level/Rank</option>
+                                <option value="character-build">Build Karakter</option>
+                                <option value="endgame-content">Konten Endgame</option>
+                                <option value="resource-farming">Farming Resource</option>
+                                <option value="custom">Layanan Custom</option>
                             </select>
                         </div>
 
                         {/* Package Selection */}
                         <div>
                             <label htmlFor="package" className="block text-sm font-medium mb-2">
-                                Select Package
+                                Pilih Paket
                             </label>
                             <select id="package" name="package" value={formData.package} onChange={handleChange} required className="w-full px-4 py-3 rounded-lg bg-[#0f0f0f] border border-[#2a2a2a] focus:border-indigo-600 focus:outline-none transition-colors">
-                                <option value="">Choose a package...</option>
-                                <option value="starter">Starter - $29</option>
-                                <option value="pro">Pro - $59</option>
-                                <option value="premium">Premium - $99</option>
+                                <option value="">Pilih paket...</option>
+                                <option value="starter">Starter - Rp 150K</option>
+                                <option value="pro">Pro - Rp 300K</option>
+                                <option value="premium">Premium - Rp 500K</option>
                             </select>
                         </div>
 
                         {/* Additional Details */}
                         <div>
                             <label htmlFor="details" className="block text-sm font-medium mb-2">
-                                Additional Details
+                                Detail Tambahan
                             </label>
-                            <textarea id="details" name="details" value={formData.details} onChange={handleChange} required rows={4} className="w-full px-4 py-3 rounded-lg bg-[#0f0f0f] border border-[#2a2a2a] focus:border-indigo-600 focus:outline-none transition-colors resize-none" placeholder="Current level, target level, specific requirements..." />
+                            <textarea id="details" name="details" value={formData.details} onChange={handleChange} required rows={4} className="w-full px-4 py-3 rounded-lg bg-[#0f0f0f] border border-[#2a2a2a] focus:border-indigo-600 focus:outline-none transition-colors resize-none" placeholder="Level sekarang, target level, kebutuhan spesifik..." />
                         </div>
 
                         {/* Submit Button */}
                         <button type="submit" className="w-full py-3 bg-indigo-600 rounded-lg font-medium hover:bg-indigo-500 transition-colors">
-                            Submit Order
+                            Kirim Pesanan
                         </button>
 
-                        <p className="text-xs text-gray-500 text-center">We'll contact you within 24 hours to confirm your order</p>
+                        <p className="text-xs text-gray-500 text-center">Kami akan menghubungi kamu dalam 24 jam untuk konfirmasi pesanan</p>
                     </form>
                 </div>
             </div>
