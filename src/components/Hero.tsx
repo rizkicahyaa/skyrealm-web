@@ -7,7 +7,7 @@ export default function Hero() {
     };
 
     return (
-        <section id="home" className="relative min-h-screen flex items-center justify-center pt-16">
+        <section id="home" className="relative min-h-screen flex items-center justify-center pt-32">
             {/* Subtle Background Accent */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <div className="absolute top-1/3 left-1/3 w-96 h-96 bg-indigo-600/10 rounded-full blur-3xl"></div>
