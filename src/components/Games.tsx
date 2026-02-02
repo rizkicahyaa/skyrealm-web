@@ -4,37 +4,37 @@ export default function Games() {
             id: "genshin",
             name: "Genshin Impact",
             description: "Adventure Rank, Character Building, Spiral Abyss",
-            icon: "⚔️",
+            image: "/images/genshin.jpg",
         },
         {
             id: "hsr",
             name: "Honkai Star Rail",
             description: "Trailblaze Level, Memory of Chaos, Characters",
-            icon: "🚂",
+            image: "/images/hsr.jpg",
         },
         {
             id: "wuwa",
             name: "Wuthering Waves",
             description: "Union Level, Tower of Adversity, Echo Farming",
-            icon: "🌊",
+            image: "/images/wuwa.jpg",
         },
         {
             id: "arknights",
             name: "Arknights Endfield",
             description: "Level Progression, Stage Clearing, Resources",
-            icon: "🛡️",
+            image: "/images/arknights.jpg",
         },
         {
             id: "nikke",
             name: "NIKKE",
             description: "Commander Level, Campaign, Arena Ranking",
-            icon: "🎯",
+            image: "/images/nikke.jpg",
         },
         {
             id: "zzz",
             name: "Zenless Zone Zero",
             description: "Inter-Knot Level, Shiyu Defense, Characters",
-            icon: "⚡",
+            image: "/images/zzz.jpg",
         },
     ];
 
@@ -50,10 +50,14 @@ export default function Games() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {games.map((game) => (
-                        <div key={game.id} className="card-minimal rounded-xl p-6 group cursor-pointer">
-                            <div className="text-3xl mb-4">{game.icon}</div>
-                            <h3 className="text-xl font-semibold mb-2 group-hover:text-indigo-400 transition-colors">{game.name}</h3>
-                            <p className="text-sm text-gray-500 font-light leading-relaxed">{game.description}</p>
+                        <div key={game.id} className="card-minimal rounded-xl overflow-hidden group cursor-pointer">
+                            <div className="aspect-video w-full overflow-hidden">
+                                <img src={game.image} alt={game.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                            </div>
+                            <div className="p-6">
+                                <h3 className="text-xl font-semibold mb-2 group-hover:text-indigo-400 transition-colors">{game.name}</h3>
+                                <p className="text-sm text-gray-500 font-light leading-relaxed">{game.description}</p>
+                            </div>
                         </div>
                     ))}
                 </div>
