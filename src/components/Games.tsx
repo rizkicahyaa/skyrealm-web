@@ -3,24 +3,28 @@ export default function Games() {
         {
             id: "genshin",
             name: "Genshin Impact",
+            genre: "Open World RPG",
             description: "Adventure Rank, Build Karakter, Spiral Abyss",
             image: "/images/genshin.jpeg",
         },
         {
             id: "hsr",
             name: "Honkai: Star Rail",
+            genre: "Turn-based RPG",
             description: "Trailblaze Level, Memory of Chaos, Karakter",
             image: "/images/hsr.jpg",
         },
         {
             id: "wuwa",
             name: "Wuthering Waves",
+            genre: "Action RPG",
             description: "Union Level, Tower of Adversity, Farming Echo",
             image: "/images/wuwa.jpg",
         },
         {
             id: "arknights",
             name: "Arknights: Endfield",
+            genre: "Real-time RPG",
             description: "Progres Level, Clear Stage, Farming Resource",
             image: "/images/enfield.webp",
         },
@@ -43,6 +47,7 @@ export default function Games() {
                                 <img src={game.image} alt={game.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                             </div>
                             <div className="p-6">
+                                <span className="text-xs font-medium text-indigo-400 mb-2 block uppercase tracking-wider">{game.genre}</span>
                                 <h3 className="text-xl font-semibold mb-2 group-hover:text-indigo-400 transition-colors">{game.name}</h3>
                                 <p className="text-sm text-gray-500 font-light leading-relaxed">{game.description}</p>
                             </div>
