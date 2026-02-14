@@ -22,6 +22,13 @@ export default function Games() {
             image: "/images/wuwa.jpg",
         },
         {
+            id: "umamusume",
+            name: "Umamusume: Pretty Derby",
+            genre: "Racing RPG",
+            description: "Training, Race, Support Card",
+            image: "/images/umamusume.jpg",
+        },
+        {
             id: "arknights",
             name: "Arknights: Endfield",
             genre: "Real-time RPG",
