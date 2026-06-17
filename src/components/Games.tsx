@@ -28,13 +28,6 @@ export default function Games() {
             description: "Training, Race, Support Card",
             image: "/images/umamusume.jpg",
         },
-        {
-            id: "arknights",
-            name: "Arknights: Endfield",
-            genre: "Real-time RPG",
-            description: "Progres Level, Clear Stage, Farming Resource",
-            image: "/images/enfield.webp",
-        },
     ];
 
     return (
