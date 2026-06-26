@@ -28,13 +28,6 @@ export default function Games() {
             description: "Training, Race, Support Card",
             image: "/images/umamusume.jpg",
         },
-        {
-            id: "honor-of-kings",
-            name: "Honor of Kings",
-            genre: "Multiplayer Online Battle Arena",
-            description: "Hero Mechanics, Playability Enhancements, Map Objectives",
-            image: "/images/hok.webp",
-        },
     ];
 
     return (
